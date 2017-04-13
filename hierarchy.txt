@@ -1,0 +1,60 @@
+Civ Level
+  ESTABLISH_COLONY_TRADE_AGREEMENTS
+  LAW_MAKING
+  MAKE_INTRODUCTIONS
+  MAKE_PEACE_AGREEMENTS
+  MAKE_TOPIC_AGREEMENTS
+  MILITARY_GOALS
+  RECEIVE_DIPLOMATS
+
+Site Level
+  ACCOUNTING
+  BUILD_MORALE
+  EXECUTIONS
+  HEALTH_MANAGEMENT
+  LAW_ENFORCEMENT
+  LAW_MAKING
+  MANAGE_PRODUCTION
+  MEET_WORKERS
+  MILITARY_GOALS
+  MILITARY_STRATEGY
+  RECEIVE_DIPLOMATS
+  RELIGION ???
+  TRADE
+
+Leader
+  MILITARY_GOALS
+
+
+[POSITION:KING]
+  [NUMBER:1]
+
+[POSITION:LORD]
+  [SITE]
+  [NUMBER:1]
+  [REPLACED_BY:KING]
+
+Colonial > Mayor
+  Trader
+  Militia
+  Medic
+  Manager
+
+Mayor > Landowner
+  Trader
+  Militia
+  Medic
+  Manager
+  Accountant
+  Law
+  Executioner
+
+Landowner > Sovran
+  Trader
+  Militia
+  Medic
+  Manager
+  Accountant
+  Law
+  Executioner
+  Champion

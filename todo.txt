@@ -1,0 +1,44 @@
+ENTITY
+  create language
+  set weapons
+  set armor
+  set traps
+  set toys
+  set instruments
+  set tools
+  create currency
+  set item_improvement_modifier
+  expirement with start biome
+  adjust trade/siege triggers
+  SET PERMITTED_JOB, _REACTION, _BUILDING
+  MODIFY VALUES
+  SET positions
+  SET TISSUE_STYLE IF POSSIBLE
+  SET STONE GEM _SHAPE
+  create weapons
+  set ammo
+  create unique armor
+  create unique toys
+  figure out reactions
+
+CREATURE
+  SET PROFESSION_NAME
+  MODIFY PERSONALITY
+  SET SKILL_RATE
+  CASTES
+  SET LITTER SIZE MAYBE(DEFUNCT)
+  set breathe body part
+  odor level and string
+  set orientation
+  set sounds
+  MODIFY APPEARANCE ON AGE
+
+BODY
+
+DOMESTIC FAUNA
+  balance pet_value
+
+DOMESTIC FLORA
+
+POSITIONS
+  SET INHERITANCE
